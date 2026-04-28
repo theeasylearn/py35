@@ -6,5 +6,4 @@ if age>18 and age<58:
     print("person is eligible to apply for the job")
 else:
     print("Person is not eligible for the job")
-
 print("good bye")

@@ -1,50 +1,157 @@
-1   write a program to convert user grams into kilograms 
-2   write a program to convert user centimeter into millimeter   
-3   write a program to convert user miles into kilometer   
-4   write a program to convert user bytes into kilobytes  
-5   write a program to convert user bytes into megabytes  
-6   write a program to convert user bytes into gigabytes  
+Process 
+---------------------------
+write a program to convert user given hours into minutes and then display result 
+write a program to convert user given meters into foot & inches and then display result 
+write a program to convert user given rupees into dollar and then display result 
+write a program to convert user given meter into KM and then display result 
+write a program to convert user given hours into days and then display result 
+write a program to convert user given fahrenheit into celsius and then display result 
+
+List
+---------------
+create a list to store your favorite destination in india & display it 
+create a list & store 10 different type of values in it 
+    print all values 
+    print 1st value 
+    print 1st five value 
+    print last 5 value 
+    print list twice using * 
+    print item in the list from 2nd to 5th position
+
+tuple
+---------------------------------
+create tuple to store all states name of india 
+display tuple 
+display 1st five items 
+display 2nd and 3rd and 4th item 
+display all items from 7th position onwards 
+try to remove 3rd item see what happens 
+
+
+dictionary
+----------------------------
+create dictionary to store 20 different detail about your ownself 
+print dictionary
+print name, age, gender, dob 
+add key value pair pincode into dictionary 
+add key value pair to store your 5 favourite touriest destination 
+print all the favourite touriest destination 
+
+exercise
+-------------------
+#write a program to convert given 3 digit amount into words
+# input : 175 output : one seven five 
+
+#write a program to convert given 3 digit amount into words
+# input : 175 output : one hundred seventy five  
+
+#write a program to convert given minutes into hours and remaining minutes
+input : 150 minutes 
+output : 2 hours and 30 minutes 
+
+#write a program to convert given grams into kg and remaining grams
+input : 2500 grams
+output : 2 kg and 500 grams 
+
+#write a program to display dinominations of currency for given amount
+input : 887 Rupees 
+output : 
+500 x 1 = 500
+200 x 1 = 200
+100 x 1 = 100
+50 x 1 =  50
+20 x 1 =  20
+10 x 1 =  10
+5 x 1 =   05
+2 x 1 =   02
+1 x 1 =   01
+
+exercise set - 2
+-------------------------------------------------
+Here are the same programs, **cleanly numbered in a single list**, ready to use in assignments or question papers:
+
+1. Create a list of 10 numbers and find the sum using built-in functions.
+2. Given a list of numbers, find the maximum and minimum values.
+3. Create a tuple of 5 elements and find its length.
+4. Reverse a list using slicing (no loop).
+5. Count how many times a specific value appears in a list using built-in methods.
+6. Convert a list with duplicate values into a set and display unique elements.
+7. Create two sets and find their union.
+8. Create two sets and find their intersection.
+9. Create two sets and find their difference.
+10. Given a list of numbers, sort it in ascending and descending order.
+11. Create a dictionary of 5 students with their marks and find the total marks.
+12. From a dictionary, extract only the keys into a list.
+13. From a dictionary, extract only the values into a list.
+14. Merge two dictionaries into a single dictionary.
+15. Create a list of numbers and remove all duplicate values without using loops.
+16. Given a tuple of numbers, convert it into a list and add new elements.
+17. Create a list and find the second largest number using sorting.
+18. Given a list of words, create a set to find unique words.
+19. Create a dictionary and calculate the average of all values.
+20. Given two lists, convert them into sets and find common elements.
+21. Write a program to convert bytes into kilobytes.
+22. Write a program to convert kilobytes into megabytes.
+23. Write a program to convert grams into kilograms.
+24. Write a program to convert kilograms into grams.
+25. Write a program to calculate simple interest using principal, rate, and time.
+26. Write a program to calculate total amount after simple interest.
+27. Write a program to calculate the area of a triangle using base and height.
+28. Write a program to calculate the area of a rectangle using length and breadth.
+29. Write a program to calculate the perimeter of a rectangle.
+30. Write a program to calculate the area of a circle using radius.
+31. Write a program to convert Celsius temperature into Fahrenheit.
+32. Write a program to convert Fahrenheit temperature into Celsius.
+33. Write a program to calculate the average of marks.
+34. Write a program to convert seconds into minutes.
+35. Write a program to convert minutes into hours.
+36. Write a program to calculate the total price of items.
+37. Write a program to calculate discount amount using price and discount rate.
+38. Write a program to calculate the square and cube of a number.
+39. Write a program to calculate speed using distance and time.
+40. Write a program to convert meters into kilometers.
+
+Operators
+------------------------------------------------------------------
+1) write a program to findout name of place existing in tuple or not using in operator
+2) write a program to findout whether number exist in list or not using in operator
+3) write a program to findout whether particular key/value exist in dictionary or not using in operator 
+4) write a program to findout name of crickerter in string which has 20 player name using in operator.
+
 
 decision making statement
 ---------------------
+    if decision making 
+        1) write a program to convert 24 hours time into 12 hours format time and display it with AM PM message. 
+        input : 15 hours 
+        output  3 PM 
 
-1) write a program to convert 24 hours time into 12 hours format time and display it with AM PM message. 
-input : 15
-output  3 PM 
+        input : 11 hours 
+        output  11 AM 
 
-input : 11
-output  11 AM 
+        input : 25 hours 
+        output  invalid input 
 
-input : 25 
-output  invalid input 
+        2) write a program to accept length and width of two different farm from user. and find out & display which farm is bigger 
 
-input : -5 
-output  invalid input 
+        3) write a program to accept day of week (between 1 to 7) and then display name of day. (use simple if decision making)
+            input 1 : monday 
+            input 2 : tuesday 
+            input 7 : sunday 
 
-2) write a program to accept length and width of two different farm from user. and findout & display which farm is bigger 
+if else 
+---------------------------------------------------------------------------------------------
+4) write a program to find out whether given year is millennium year or not. using if else decision making statements.
 
-3) write a program to accept day of week (between 1 to 7) and then display name of day. (use simple if decision making)
-    input 1 : monday 
-    input 2 : tuesday 
-    input 7 : sunday 
+5) write a program to find out elder brother from given two brother's age. 
 
-4) write a program to findout elder brother from given two brother's age. 
-
-6) write a program to findout which is cheaper approach to buy IPhone 17 pro max.  consider use is going usa should he buy iphone from usa or from india. 
+6) write a program to find out which is cheaper approach to buy IPhone 17 pro max.  consider use is going usa should he buy iphone from usa or from india. 
 
 7) write a program to decide which is cheaper approach to go from ahmedabad to delhi. by car or by train. consider person has his own petrol car  and he prefer to travel by 1st class train 
 
-if else 
-----------------------
-1) write a program to convert 24 hours time into 12 hours format time and display it with AM PM   message. 
-
-2) write a program to findout which triangle is bigger in area from given 2 triangle base and length 
-
-
 
 if else if decision making 
-1) 
-Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
+1) Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
 
 | Percentage | Grade |
 | ---------- | ----- |
@@ -57,29 +164,17 @@ Write a program that takes a 5 subject marks from user. calculate total and Perc
 ----------------------------------------
 
 2) write a program to accept 2 number from user. and accept choice for operations.
-operations will be addition, subtraction, multiplication, division
-do operation and display result.
+operations will be addition, subtraction, multiplication, division.
+do operation and display result as per user choice about operation.
 
-4) write a program to accept birth day and birth month from user as separate input. decide zodiac sign from below table 
-    Aries: March 21–April 19
-    Taurus: April 20–May 20
-    Gemini: May 21–June 21
-    Cancer: June 22–July 22
-    Leo: July 23–August 22
-    Virgo: August 23–September 22
-    Libra: September 23–October 22
-    Scorpio: October 24–November 21
-    Sagittarius: November 22–December 21
-    Capricorn: December 22–January 19
-    Aquarius: January 20–February 18
-    Pisces: February 19–March 20
-    
+3) write a program to accept month number from user and display how many days month has. (use logical operator or)
+    input : 1 output : this month has 31 days 
+    input : 4 output : this month has 30 days 
 
-5) write a program to findout whether given year is leap year or not. 
-https://www.wikihow.com/Calculate-Leap-Years
-
-4) write a program to accept birth day and birth month from user as separate input. decide sun zodiac sign from below table 
-    Aries: March 21–April 19
+nested decision making 
+----------------------------------------------------------------------
+4) write a program to accept birth day and birth month from user as separate input. decide zodiac sign as per surya rashi from below table 
+    Aries: (March 21) or (April 19)
     Taurus: April 20–May 20
     Gemini: May 21–June 21
     Cancer: June 22–July 22
@@ -92,180 +187,102 @@ https://www.wikihow.com/Calculate-Leap-Years
     Aquarius: January 20–February 18
     Pisces: February 19–March 20
 
-5) write a program for male female marriage compatibility as per below link,  accept birth day and birth month from user as separate input. decide zodiac sign as per previous example and then use zodiac sign to decide  marriage compatibility
+5) write a program to findout day of week(monday/tuesday/wednesday) from given date.  
+    https://www.wikihow.com/Calculate-the-Day-of-the-Week
 
+6) Create a program that checks how compatible two people are for marriage based on their zodiac signs.
+
+Ask for the male's birth day (example: 15)
+Ask for the male's birth month (example: 3 for March)
+Ask for the female's birth day (example: 22)
+Ask for the female's birth month (example: 7 for July)
+
+
+Find their zodiac signs:
+Use the birth day and month to determine each person's zodiac sign
+For example: If born on March 15, the zodiac sign is Pisces
+Use the same zodiac date ranges as in the previous zodiac exercise
+
+Check compatibility:
+Use a compatibility chart (like the one in the provided link) to find out how well their zodiac signs match
+The chart shows compatibility ratings between all zodiac sign pairs
 https://miro.medium.com/v2/resize:fit:1100/format:webp/1*f58HMTVzfN2XvCPR23wXgA.jpeg
 
-6) write a program to calculate & display day of week (monday/tuesday) from given date. 
-refer https://www.wikihow.com/Calculate-the-Day-of-the-Week
+Display the result:
+Show the male's zodiac sign
+Show the female's zodiac sign
+Display their compatibility level (like: Excellent, Good, Average, or Poor)
+Optionally, show a percentage or description of how compatible they are
+Example output:
+Male's Zodiac Sign: Pisces
+Female's Zodiac Sign: Cancer
+Compatibility: Excellent (95%)
+These signs are highly compatible for marriage!
+
+nested decision making statements
+---------------------------------------
+1) write a program to findout heaviest person from 3 person given weight
+2) write a program to findout most young person from 4 person given age
 
 
 loop 
--------------
-1) 1 3 5 7 9 11 ... 100
-2) 1 8 27 64 125 .... 1000
-3) 1 2 4 7 11 16 22 29 37 .... 1000
+---------------------
+1)   100  95  90  85  80  75  70  65  60  ..... 0
+2)   1    8   27   125  ....... 1000
+3)   1    -8   27  -64  .....    1000
+4)   0    1   1   2   3   5   8   13  .... 100
 
-4) 1 -2 3 -4 5 -6 7 -8 .... 1000
-
-6) 5 10 15 20 25 30 35 .... 500
-(use astrik operator)
-
-7) 1 3 5 7 11 13 17 19 23 29 (what are these numbers)
+5) write a program to figure out whether given number  is composite number or not
+6) write a program to figure out whether given number  is perfect number or not
+7) write a program to figure out whether given number  is armstrong number or not
 
 for loop 
-
-display all negative values from list and also count it 
-display only values divisible by 10 from tuples (use operator %)
-display only values between 50 to 100 in tuples (use relational operator & logical operator)
-display only that countries from list which ends with tan 
-display each number in reverse in list (all numbers are of 2 digits)
-
-write a program to display students who are failed (marks<35)
-write a program to display students who are topper (marks>90)
-write a program to display count of pass and failed failed (marks<35)
-
-students_marks = {
-    "Aarav": 78, "Vihaan": 25, "Aditya": 92, "Arjun": 47, "Krishna": 83,
-    "Ishaan": 56, "Rohan": 30, "Karan": 88, "Rahul": 74, "Amit": 61,
-    "Neeraj": 95, "Suresh": 32, "Mahesh": 69, "Rajesh": 81, "Dinesh": 53,
-    "Naresh": 37, "Mukesh": 11, "Anil": 44, "Sunil": 72, "Deepak": 85,
-    "Vikas": 66, "Pankaj": 34, "Nitin": 90, "Gaurav": 58, "Manish": 76,
-    "Tarun": 49, "Varun": 0, "Sanjay": 63, "Ajay": 97, "Vijay": 55
-}
-
-write a program to count consonants in any case in given string  
-write a program to count digits  given string  
-write a program to count words  given string  
-input: ankit patel 
-output : 2 words
+------------------------
+1) write a program to count odd and even number in numeric list 
+2) write a program to generate and display sum of all the float values in tuple and also calculate average 
+3) write a program to count words in given string 
+4) write a program to count digits in given string 
+5) write a program to count vowels, consonants, digits, words, and symbol in given list 
+6) write a program to convert all negative values into positive values in the same list 
+7) write a program to findout coutries whose area is greater given area. use chatgpt to create dictionaries which country name as key and its' area as value. 
 
 nested loop 
-
-1) write a program to print 30 to 21 multiplication table
------------------------------------------------------------------
-# 30 x 1 = 30
-# 30 x 2 = 60
-# 30 x 10 = 300
-
-
-2) Write a program to print all divisors of numbers from 10 to 20
-------------------------------------------------------------------
-10: 1, 2, 5, 10
-11: 1, 11
-12: 1, 2, 3, 4, 6, 12
-13: 1, 13
-14: 1, 2, 7, 14
-15: 1, 3, 5, 15
-16: 1, 2, 4, 8, 16
-17: 1, 17
-18: 1, 2, 3, 6, 9, 18
-19: 1, 19
-20: 1, 2, 4, 5, 10, 20
-
-3)  (1,1) (1,2) (1,3)
-    (2,1) (2,2) (2,3)
-    (3,1) (3,2) (3,3)
-
-    
-4)
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-only 1 astrik per print function 
-print("*")
-
-5)
+1
+1 2
+1 2 3
+1 2 3 4
 1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
+
+1
+0 1
+0 1 0
+1 0 1 0
+1 0 1 0 1
+
+1 2 3 4 5  
+1 2 3 4  
+1 2 3  
+1 2  
+1
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
 
 function 
-------------
-1) write a program that return qube of given number 
-2) write a program that return volume of given length, width, depth  
-3) write a program that return simple interest of given amount rate year 
-4) write a program tat return maximum number from two number  
-
-
-package example 
-------------------------------------
-findout python package to convert english text into gujarati text and use it 
-findout python pakcage to download youtube video 
-findout ptyhon package to convert text to audio (gujarati text gujarati audio )
-
-
-default argument 
-1) create function that return total Seconds of given hours, minutes and seconds. in this example minutes and second should be optional 
-
-2) create function that return total Bytes of given GB, MB and KB. in this example MB and KB optional. 
--------------------------------------------
-
-arbitrary argument function 
-------------------------------
-1) write a program to findout minimum value from all the argument passed in function 
-2) write a program to findout mean value from all the argument passed in function 
-3) write a program to findout median value from all the argument passed in function 
-4) write a program to display on that cities whose name end with nagar from all the cities passed as argument
-
-5) write a program to create function return simple Interest using keyword argument concept 
-
-recursion 
---------------------------
-
-6) write a program to convert decimal number into octal number using recursion 
-7) write a program to convert amount into words 
-    input: 12345 print: one two three four five 
-
-function return multiple value 
--------------------------------------------------------------------------
-8) write a program to findout minimum & maximum from all the argument passed in function and return it 
-
-map and filter exercise 
-
-write a program to generate qube of all the numbers in list using map function 
-write a program to convert all the negative numbers into positive number in list using map function 
-write a program to convert all the float  numbers into integer number of the list using map function 
-
-filter example 
-write a program to filter all the players who have score more then 50 runs in match. use list and filter function 
-
-write a program to filter all the players who have score more then 50 but less then 100 runs in match. use list and filter function 
-
-
-Module 
-create module currency.py that has functions  to convert given indian rupees into different currency
-    toDollar()
-    toEuro()
-    toYen()
-    toPound()
-
-create variable count with value 100 
-create function sendSMS()
-    which will access global variable count 
-    and it will reduce count variable by 1 
-    and display message SMS send 
-    
-    call sendSMS() function and also display count variable value after function called.
-
-Create Package India which has 4 sub package 
-    East 
-        has file language.py that has 
-        getLanguage() all language of east india 
-        isLanguageExist(languageName) return true if the language is of East
-        india otherwise returns false 
-    West 
-        has file language.py that has 
-        getLanguage() all language of West india 
-        isLanguageExist(languageName) return true if the language is of West india otherwise returns false 
-    South
-        has file language.py that has 
-        getLanguage() all language of South india 
-        isLanguageExist(languageName) return true if the language is of     South
-         india otherwise returns false 
-    North    
-        has file language.py that has 
-        getLanguage() all language of North india 
-        isLanguageExist(languageName) return true if the language is of North india otherwise returns false 
+-----------------------------
+write a program to create function that convert given fahrenheit into celsius 
+write a program to create function that calculate and return simple interest of given amount rate and year

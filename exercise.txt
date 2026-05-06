@@ -228,13 +228,14 @@ nested decision making statements
 loop 
 ---------------------
 1)   100  95  90  85  80  75  70  65  60  ..... 0
-2)   1    8   27   125  ....... 1000
+2)   2  4   6   8   10  .... 200
 3)   1    -8   27  -64  .....    1000
 4)   0    1   1   2   3   5   8   13  .... 100
 
 5) write a program to figure out whether given number  is composite number or not
 6) write a program to figure out whether given number  is perfect number or not
 7) write a program to figure out whether given number  is armstrong number or not
+8) write a program to figure out whether given number  is prime number or not
 
 for loop 
 ------------------------

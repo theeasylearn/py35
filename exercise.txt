@@ -240,7 +240,9 @@ loop
 
 for loop 
 ------------------------
-1) write a program to count odd and even number in numeric list 
+1) write a program to count positive & negative number in numeric list 
+2) write a program to calculate sum and average of  values in list 
+--------------------------------------------------------------------------------
 2) write a program to generate and display sum of all the float values in tuple and also calculate average 
 3) write a program to count words in given string 
 4) write a program to count digits in given string 

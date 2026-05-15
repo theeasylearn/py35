@@ -284,5 +284,14 @@ nested loop
 
 function 
 -----------------------------
-write a program to create function that convert given fahrenheit into celsius 
+write a program to create function that convert & return given fahrenheit into celsius 
 write a program to create function that calculate and return simple interest of given amount rate and year
+
+write a program that return current Date (google search)
+write a program that return current Time (google search)
+
+write a program that will find and print maximum number from 2 numbers.
+ 
+write a program that will find and print maximum number from list, user will pass list as argument in function. 
+
+write a program that will calculate and display sum of even value into list. user will pass list as argument in function. 

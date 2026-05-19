@@ -1,0 +1,96 @@
+from bs4 import BeautifulSoup
+html_docs = """<html>
+
+<head>
+    <title>
+        this is web page title
+    </title>
+</head>
+
+<body>
+    <h1>Sample heading</h1>
+    <h2>The Lighthouse Beyond the Fog</h2>
+    <p>In the quiet coastal town of Windmere, where the sea carried the scent of salt and old memories through every
+        narrow street, a young clockmaker named Elias lived alone above his tiny repair shop, spending his days fixing
+        broken watches and ancient clocks that no one else in town had the patience to understand, and although people
+        respected his skill, very few truly knew him because Elias rarely spoke about his past or the strange promise he
+        had made to his father many years earlier before he disappeared during a violent storm at sea; every evening
+        after closing the shop, Elias would climb the steep hill behind the town carrying a small brass telescope and
+        wait beside the old lighthouse, staring toward the horizon as if expecting someone to return, and the
+        townspeople often whispered that grief had made him strange, but Elias ignored them because deep inside he still
+        believed his father was alive somewhere beyond the endless water. One winter morning, during the coldest season
+        Windmere had seen in decades, a young girl named Clara entered his shop carrying a damaged pocket watch wrapped
+        carefully in blue cloth, and she explained that the watch had belonged to her grandfather, a sailor who had
+        recently passed away, but before his death he had insisted that only Elias could repair it because “the
+        clockmaker knows the truth about the sea,” words that immediately unsettled Elias because they sounded exactly
+        like something his own father once used to say. Curious and uneasy, Elias opened the watch and discovered a
+        hidden compartment containing a faded map marked with unfamiliar symbols and a single date written in red ink:
+        December 18th, the very next night. Clara revealed that her grandfather had spoken often about a hidden island
+        surrounded by dangerous fog where lost sailors sometimes found shelter, and according to old legends, a ship
+        trapped there could return home only when someone remembered them strongly enough to guide them back. Though
+        Elias wanted to dismiss the story as nonsense, something about the map stirred a forgotten hope inside him, and
+        after hours of hesitation he finally decided to follow it, borrowing a small fishing boat and inviting Clara to
+        accompany him despite the growing storm clouds gathering over the sea. Throughout the night they sailed through
+        freezing winds and towering waves until a thick silver fog surrounded them completely, swallowing the stars and
+        silencing the ocean itself, and just when Elias began to fear they were hopelessly lost, distant lights appeared
+        ahead like glowing lanterns floating in darkness. Emerging from the fog, they discovered a hidden harbor where
+        time seemed frozen, filled with abandoned ships covered in moss and silence, yet among them stood one vessel
+        that Elias recognized instantly because its name, The Aurora, had belonged to his father’s ship. With trembling
+        hands he stepped aboard and found the captain’s cabin untouched, as though no years had passed at all, and there
+        on the desk rested a letter addressed to him in his father’s handwriting explaining that the crew had survived
+        the storm but become trapped beyond ordinary time, unable to return until someone from home came searching with
+        genuine faith. At sunrise the fog slowly lifted, the harbor faded into the morning light, and the lost ships
+        finally sailed back toward Windmere, while Elias stood beside Clara watching the horizon with tears in his eyes,
+        realizing that hope, no matter how impossible it may seem, can sometimes guide people home even after the world
+        believes they are gone forever.
+    </p>
+    <h2 id='story2'>The Boy Who Collected Rain</h2>
+    <p class='story_2_text'>n the crowded city of Bellford, where tall gray buildings blocked most of the sunlight and people hurried through
+        life without noticing one another, there lived a quiet fourteen-year-old boy named Adrian who had an unusual
+        hobby that made everyone think he was strange because instead of collecting coins, stamps, or books like other
+        children, Adrian collected rainwater from different storms in hundreds of tiny glass bottles that he carefully
+        labeled with dates, locations, and small handwritten notes describing how each rainfall had felt to him at the
+        moment he captured it, and while most people laughed at the idea, Adrian believed every storm carried emotions,
+        memories, and stories that disappeared if nobody preserved them. He had started the collection years earlier
+        after his mother passed away during a long illness because on the final evening they spent together, she had
+        told him that rain was nature’s way of reminding people that sadness never lasted forever since storms always
+        moved on eventually, leaving the world cleaner and calmer behind them. Since then, Adrian spent every rainy
+        evening on the rooftop of his apartment building with jars, funnels, and notebooks spread around him while
+        thunder echoed across the city skyline, and over time his strange collection grew into hundreds of bottles
+        arranged neatly across his small bedroom shelves, each one connected to a specific memory from his life. Some
+        storms reminded him of loneliness, some of courage, and others of unexpected happiness, like the warm summer
+        rain during which he once rescued a frightened stray dog that later became his closest companion. One autumn
+        afternoon, while exploring an old bookstore hidden between two abandoned buildings, Adrian met an elderly woman
+        named Evelyn who noticed the sketch of rain bottles sticking out from his notebook and asked him why he
+        collected storms instead of avoiding them like everyone else, and after listening carefully to his explanation,
+        she smiled gently before revealing that many years earlier she had known someone who believed storms carried
+        pieces of human emotion through the air, allowing memories to survive long after people disappeared. Intrigued
+        by her words, Adrian returned to the bookstore every week, and their conversations slowly transformed his
+        understanding of grief, loneliness, and hope because Evelyn taught him that memories were not meant to trap
+        people in the past but to help them carry love forward into the future. Then one evening, during the most
+        powerful storm Bellford had experienced in decades, the city suffered a massive power outage, streets flooded
+        rapidly, and panic spread everywhere as people rushed through darkness searching for safety, but Adrian remained
+        calm because for the first time he did not see the storm as something frightening; instead, he saw it as another
+        story waiting to be understood. Carrying lanterns and supplies from his apartment, he guided trapped neighbors
+        into the building lobby and comforted frightened children by telling them stories connected to the storms he had
+        collected over the years, and as the hours passed, the terrified strangers slowly became a community, sharing
+        food, laughter, and memories together while rain crashed endlessly outside. By morning the storm had finally
+        ended, sunlight reflected across the wet streets, and the people of Bellford began helping one another rebuild
+        damaged homes and businesses, but what surprised Adrian most was how many neighbors now greeted him warmly
+        instead of ignoring him as they once had because during the darkest night the city had faced, the quiet boy
+        everyone considered strange had reminded them that storms could bring people together instead of tearing them
+        apart, and from that day forward Adrian no longer collected rain simply to preserve sadness because he finally
+        understood that every storm, no matter how painful or frightening, also carried the possibility of connection,
+        healing, and new beginnings.</p>
+</body>
+
+</html>"""
+
+soup = BeautifulSoup(html_docs,'html.parser')
+#print title
+print(soup.title.string)
+print(soup.h1.string)
+# print(soup.h2.string)
+# print(soup.p.string)
+print(soup.find(id='story2').string)
+print(soup.find('p', class_='story_2_text').string)

@@ -10,4 +10,6 @@ h = 60
 g = 50
 c = 40
 
-print(getMerit(h,g,c,m,s,e))
+# print(getMerit(h,g,c,m,s,e)) wrong way of calling function
+#keyword arguments
+print(getMerit(hindi=h,gujarati=g,computer=c,maths=m,science=s,english=e))

@@ -151,6 +151,8 @@ if else
 
 
 if else if decision making 
+
+
 1) Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
 
 | Percentage | Grade |
@@ -164,12 +166,8 @@ if else if decision making
 ----------------------------------------
 
 2) write a program to accept 2 number from user. and accept choice for operations.
-operations will be addition, subtraction, multiplication, division.
-do operation and display result as per user choice about operation.
+operations. user give 1 for addition, 2 for subtraction subtraction, 3 for multiplication, 4 for division. do operation and display result as per user choice about operation.
 
-3) write a program to accept month number from user and display how many days month has. (use logical operator or)
-    input : 1 output : this month has 31 days 
-    input : 4 output : this month has 30 days 
 
 nested decision making 
 ----------------------------------------------------------------------
@@ -299,3 +297,24 @@ write a program that will calculate and display sum of even value into list. use
 write a program to edit program no 54. ask user his zodiac sign. must be any one of 12 zodiac sign. and then as zodiac sign extract rashi bhavishya pand play it. 
 
 download a new image from specific site at every 1 hour and display it as wallpaper. python program should automatically start when user start PC. 
+
+Module
+-----------------------
+create module Currency Converter that has function 
+    toEuro(rupees)
+    toPound(rupees)
+    ToDollar(rupees)
+    ToYen(rupees)
+all above function has input called amount in rupees. and each function convert rupees in another currency and return it 
+
+create another file that import Currency Converter module and call it. 
+
+create module Unit Converter that has function 
+    toFoot(inches)
+    toMeter(inches)
+    toKM    (inches)
+
+all above function has input called INCHES. and each function convert INCHES in another unit and return it 
+
+create another file that import Currency Converter module and call it. 
+

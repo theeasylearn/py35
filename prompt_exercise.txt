@@ -1,0 +1,7 @@
+you need to submit each and every prompt you use to generate output. 
+------------------------------------------------------------------------
+1) create pdf file using an ai that has all the maths related library function with syntax, explanation, example and output. 
+
+2) create pdf file which has all the built in module names, where it can be used and 10 most important function in each module. 
+
+3) create video + pdf guide that practically explain how to use claude premium version for free 

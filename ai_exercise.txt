@@ -1,0 +1,4 @@
+1) findout and try 5 plugins which allow vibe coding /auto code completion just like github copilot in vs code 
+    submit your report with ranks for each plugins on theasylearn@gmail.com 
+    report should have plugins name, advantage and disadvantage 
+    

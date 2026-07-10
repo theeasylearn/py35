@@ -318,3 +318,8 @@ all above function has input called INCHES. and each function convert INCHES in 
 
 create another file that import Currency Converter module and call it. 
 
+create function in python which has 3 input (all input are date as string)
+    function should return youngest person age in years 
+
+create function in python which can have arbitrary no of string dates. this function will return birth date person who will give party. person who has birth nearest to current date will give party 
+    02-07-2008 30-07-2008 15-06-2010

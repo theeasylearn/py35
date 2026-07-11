@@ -323,3 +323,27 @@ create function in python which has 3 input (all input are date as string)
 
 create function in python which can have arbitrary no of string dates. this function will return birth date person who will give party. person who has birth nearest to current date will give party 
     02-07-2008 30-07-2008 15-06-2010
+
+O.O.P 
+------------------------------------------
+1) create class InterestCalculator. 
+    it has below methods 
+        1) getSimpleInterest()
+        2) getCompoundInterest()
+    both function will print only message when called 
+
+2) create class UnitConverter 
+    it has below method 
+        1) getFoot()
+        2) getMeter()
+        3) getKM()
+        4) getMile()
+    both function will print only message when called
+
+3) create class CurrencyConverter
+    it has below method 
+        1) getDollar()
+        2) getEuro()
+        3) getPound()
+        4) getYen()
+    both function will print only message when called

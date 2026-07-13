@@ -12,8 +12,16 @@ class MyMath:
     
 #we must create object to call methods of the MyMath class
 #object = ClassName()
-m1 = MyMath()
+m1 = MyMath() #we have to create object then we can call method using object
 m1.add()
 m1.sub()
 m1.mul()
 m1.div()
+
+m2 = MyMath()
+m2.add()
+m2.sub()
+m2.mul()
+m2.div()
+
+

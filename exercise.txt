@@ -347,3 +347,15 @@ O.O.P
         3) getPound()
         4) getYen()
     both function will print only message when called
+
+Constructor 
+-------------------------------------------
+create class InterestCalculator. it has Constructor that create below instance variable
+    amount, rate, year.
+    Constructor should have all these parameter for above input and initialize instance variable. 
+    it has below methods 
+        1) getSimpleInterest() 
+            which use instance variable and return simple interest
+        2) getCompoundInterest() 
+            which use instance variable and return compound interest
+    both function will print only message when called 
